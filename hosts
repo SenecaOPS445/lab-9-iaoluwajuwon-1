@@ -9,6 +9,8 @@
 #   - A hostname/ip can be a member of multiple groups
 
 # Ex 1: Ungrouped hosts, specify before any group headers.
+#[ops445]
+vmlab ansible_host=myvmlab.senecapolytechnic.ca ansible_port=6933 ansible_user=student ansible_ssh_private_key_file=/home/student/.ssh/id_rsa
 
 ## green.example.com
 ## blue.example.com
